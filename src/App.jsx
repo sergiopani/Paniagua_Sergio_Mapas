@@ -1,13 +1,17 @@
 import { Map } from "./components/Map";
-import './App.scss';
+import './App.css';
 
 function App() {
 
 
   return (
-    <div className="mapa-container">
+    <>
+
+
       <Map />
-    </div>
+
+    </>
+
   );
 }
 
